@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0000010000000000000001 /* FontPickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000020000000000000001 /* FontPickApp.swift */; };
+		FA0000030000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000040000000000000001 /* ContentView.swift */; };
+		FA0000050000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0000060000000000000001 /* Assets.xcassets */; };
+		FA0000070000000000000001 /* FontModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000080000000000000001 /* FontModel.swift */; };
+		FA0000090000000000000001 /* FontViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000A0000000000000001 /* FontViewModel.swift */; };
+		FA00000B0000000000000001 /* FontGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000C0000000000000001 /* FontGridView.swift */; };
+		FA00000D0000000000000001 /* FontComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000E0000000000000001 /* FontComparisonView.swift */; };
+		FA00000F0000000000000001 /* FontInfoPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000100000000000000001 /* FontInfoPanel.swift */; };
+		FA0000110000000000000001 /* FontFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000120000000000000001 /* FontFilterView.swift */; };
+		FA0000130000000000000001 /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000140000000000000001 /* FavoritesManager.swift */; };
+		FA0000150000000000000001 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000160000000000000001 /* FavoritesView.swift */; };
+		FA0000170000000000000001 /* ExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000180000000000000001 /* ExportManager.swift */; };
+		FA0000190000000000000001 /* FontCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00001A0000000000000001 /* FontCategory.swift */; };
+		FA00001B0000000000000001 /* CustomizationPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00001C0000000000000001 /* CustomizationPanel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA0000000000000000000001 /* FontPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0000020000000000000001 /* FontPickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPickApp.swift; sourceTree = "<group>"; };
+		FA0000040000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA0000060000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0000080000000000000001 /* FontModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModel.swift; sourceTree = "<group>"; };
+		FA00000A0000000000000001 /* FontViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontViewModel.swift; sourceTree = "<group>"; };
+		FA00000C0000000000000001 /* FontGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontGridView.swift; sourceTree = "<group>"; };
+		FA00000E0000000000000001 /* FontComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontComparisonView.swift; sourceTree = "<group>"; };
+		FA0000100000000000000001 /* FontInfoPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontInfoPanel.swift; sourceTree = "<group>"; };
+		FA0000120000000000000001 /* FontFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFilterView.swift; sourceTree = "<group>"; };
+		FA0000140000000000000001 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
+		FA0000160000000000000001 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		FA0000180000000000000001 /* ExportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportManager.swift; sourceTree = "<group>"; };
+		FA00001A0000000000000001 /* FontCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontCategory.swift; sourceTree = "<group>"; };
+		FA00001C0000000000000001 /* CustomizationPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationPanel.swift; sourceTree = "<group>"; };
+		FA00001D0000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA00001E0000000000000001 /* FontPick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FontPick.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0000200000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0000210000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				FA0000220000000000000001 /* FontPick */,
+				FA0000230000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0000220000000000000001 /* FontPick */ = {
+			isa = PBXGroup;
+			children = (
+				FA00001E0000000000000001 /* FontPick.entitlements */,
+				FA00001D0000000000000001 /* Info.plist */,
+				FA0000020000000000000001 /* FontPickApp.swift */,
+				FA0000040000000000000001 /* ContentView.swift */,
+				FA0000240000000000000001 /* Models */,
+				FA0000250000000000000001 /* ViewModels */,
+				FA0000260000000000000001 /* Views */,
+				FA0000270000000000000001 /* Managers */,
+				FA0000060000000000000001 /* Assets.xcassets */,
+			);
+			path = FontPick;
+			sourceTree = "<group>";
+		};
+		FA0000230000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000001 /* FontPick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0000240000000000000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000080000000000000001 /* FontModel.swift */,
+				FA00001A0000000000000001 /* FontCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA0000250000000000000001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA00000A0000000000000001 /* FontViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA0000260000000000000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA00000C0000000000000001 /* FontGridView.swift */,
+				FA00000E0000000000000001 /* FontComparisonView.swift */,
+				FA0000100000000000000001 /* FontInfoPanel.swift */,
+				FA0000120000000000000001 /* FontFilterView.swift */,
+				FA0000160000000000000001 /* FavoritesView.swift */,
+				FA00001C0000000000000001 /* CustomizationPanel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA0000270000000000000001 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000140000000000000001 /* FavoritesManager.swift */,
+				FA0000180000000000000001 /* ExportManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0000280000000000000001 /* FontPick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0000290000000000000001 /* Build configuration list for PBXNativeTarget "FontPick" */;
+			buildPhases = (
+				FA00002A0000000000000001 /* Sources */,
+				FA0000200000000000000001 /* Frameworks */,
+				FA00002B0000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontPick;
+			productName = FontPick;
+			productReference = FA0000000000000000000001 /* FontPick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA00002C0000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FA0000280000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FA00002D0000000000000001 /* Build configuration list for PBXProject "FontPick" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0000210000000000000001;
+			productRefGroup = FA0000230000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0000280000000000000001 /* FontPick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA00002B0000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0000050000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA00002A0000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0000010000000000000001 /* FontPickApp.swift in Sources */,
+				FA0000030000000000000001 /* ContentView.swift in Sources */,
+				FA0000070000000000000001 /* FontModel.swift in Sources */,
+				FA0000090000000000000001 /* FontViewModel.swift in Sources */,
+				FA00000B0000000000000001 /* FontGridView.swift in Sources */,
+				FA00000D0000000000000001 /* FontComparisonView.swift in Sources */,
+				FA00000F0000000000000001 /* FontInfoPanel.swift in Sources */,
+				FA0000110000000000000001 /* FontFilterView.swift in Sources */,
+				FA0000130000000000000001 /* FavoritesManager.swift in Sources */,
+				FA0000150000000000000001 /* FavoritesView.swift in Sources */,
+				FA0000170000000000000001 /* ExportManager.swift in Sources */,
+				FA0000190000000000000001 /* FontCategory.swift in Sources */,
+				FA00001B0000000000000001 /* CustomizationPanel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA00002E0000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA00002F0000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FA0000300000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FontPick/FontPick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FontPick/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FontPick;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 LopoDragon. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lopodragon.fontpick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA0000310000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FontPick/FontPick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FontPick/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FontPick;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 LopoDragon. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lopodragon.fontpick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0000290000000000000001 /* Build configuration list for PBXNativeTarget "FontPick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0000300000000000000001 /* Debug */,
+				FA0000310000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA00002D0000000000000001 /* Build configuration list for PBXProject "FontPick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA00002E0000000000000001 /* Debug */,
+				FA00002F0000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA00002C0000000000000001 /* Project object */;
+}
