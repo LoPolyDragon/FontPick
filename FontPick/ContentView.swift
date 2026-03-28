@@ -78,6 +78,7 @@ struct ContentView: View {
                 }
             }
         }
+        .frame(minWidth: 600, minHeight: 550)
         .sheet(isPresented: $viewModel.showComparison) {
             FontComparisonView(viewModel: viewModel)
         }
